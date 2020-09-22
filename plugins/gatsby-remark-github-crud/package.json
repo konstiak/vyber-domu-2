@@ -1,0 +1,44 @@
+{
+  "name": "gatsby-remark-github-crud",
+  "version": "1.0.0",
+  "description": "Extending remark nodes with github links",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir ./ --source-maps",
+    "watch": "babel src --out-dir ./ --source-maps --watch",
+    "lint": "eslint --ext js ./ --cache",
+    "format": "prettier --write 'src/*.js'",
+    "test": "jest --color"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "markdown",
+    "remark",
+    "github",
+    "crud"
+  ],
+  "author": "konstiak",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "jest": "^25.5.4",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "url-join": "^4.0.1"
+  },
+  "peerDependencies": {
+    "gatsby": ">2.0.0"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
