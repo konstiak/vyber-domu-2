@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, NavItem } from "react-bootstrap";
 
 const Header = ({ siteTitle, data }) => (
   
@@ -21,6 +21,11 @@ const Header = ({ siteTitle, data }) => (
             ))
           }
         </NavDropdown>
+        <NavItem href="/assets">
+          <Nav.Link as={Link} activeClassName="active" to="/assets">
+            Súbory
+          </Nav.Link>
+        </NavItem>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
