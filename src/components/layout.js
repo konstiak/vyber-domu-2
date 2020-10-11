@@ -44,6 +44,33 @@ const Layout = ({ children }) => {
                   }
                 }
               }
+
+    studies: allMarkdownRemark (
+        sort: {fields: fields___slug order: ASC},
+        filter: {
+          fields: {
+            slug: {regex: "/\/studies*/"}
+          }
+        }) {
+                totalCount
+                edges {
+                  node {
+                    id
+                    frontmatter {
+                      title
+                      date(formatString: "DD MMMM, YYYY")
+                      link
+                      builtArea
+                      usedArea
+                      livingArea
+                    }
+                    fields {
+                      slug
+                    }
+                    excerpt
+                  }
+                }
+              }
     }      
   `);
 

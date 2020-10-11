@@ -21,6 +21,15 @@ const Header = ({ siteTitle, data }) => (
             ))
           }
         </NavDropdown>
+        <NavDropdown title="Štúdie">
+          {
+            data.studies.edges.map(({ node }) => (
+              <NavDropdown.Item href={node.fields.slug} key={node.fields.slug + "-id"}>
+                <Nav.Link as={Link} activeClassName="active" to={node.fields.slug}>{node.frontmatter.title}</Nav.Link>
+              </NavDropdown.Item>
+            ))
+          }
+        </NavDropdown>
         <NavItem href="/assets">
           <Nav.Link as={Link} activeClassName="active" to="/assets">
             Súbory
