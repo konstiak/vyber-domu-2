@@ -20,4 +20,4 @@ livingArea:
 - Nutnosť vykurovania v dielni/sklade/technickej miestnosti?
 - Zateplenie/tepelné mosty Pracovňa vs. terasa?
 - Ukážka loftu v takom úzkom priestore?
-
+- https://www.archdaily.com/782560/sleep-and-play-ruetemple
