@@ -17,7 +17,7 @@ livingArea:
 - chýbajúce WC na 1. NP pri spálni
 
 ##### Poznámky:
-- Nutnosť vykurovania v dielni/sklade/technickej miestnosti?
-- Zateplenie/tepelné mosty Pracovňa vs. terasa?
+- Tepelná izolácia v dielni/sklade/technickej miestnosti? Vykurované celoročne alebo len občasne?
+- Dvere šatník - sklad budú izolačné?
 - Ukážka loftu v takom úzkom priestore?
 - https://www.archdaily.com/782560/sleep-and-play-ruetemple
