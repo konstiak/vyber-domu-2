@@ -36,7 +36,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-github-crud`,
             options: {
-              github: 'https://github.com/konstiak/vyber-domu-gatsby',
+              github: 'https://github.com/konstiak/vyber-domu-2',
               branch: 'master',
               basedir: __dirname,
             }
